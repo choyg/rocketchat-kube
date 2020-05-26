@@ -14,6 +14,10 @@ The current storage class assumes GCP as the [provisioner](https://github.com/ch
 1. `kubectl apply -k ./infra/rocket/base` Deploy the actual rocket chat stuff.
 
 ## FAQ
+> This doesn't create a way to connect to the rocket chat server
+
+`kubectl expose deployment rocketchat --type=LoadBalancer --name=oooooooo`
+
 > This is a sacriligeous use of Kustomize
 
 True
