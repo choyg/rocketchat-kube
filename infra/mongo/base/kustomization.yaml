@@ -1,0 +1,10 @@
+commonLabels:
+  app: mongodb
+  variant: production
+
+namespace: rocketchat
+
+resources:
+  - statefulset.yaml
+  - service.yaml
+  - mongod-config.yaml

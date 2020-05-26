@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  mongod.conf: |-
+    replication:
+      replSetName: rs01
+kind: ConfigMap
+metadata:
+  name: mongod-config

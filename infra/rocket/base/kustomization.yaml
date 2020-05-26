@@ -1,0 +1,10 @@
+commonLabels:
+  app: rocketchat
+  variant: production
+
+namespace: rocketchat
+
+resources:
+  - deploy.yaml
+  - service.yaml
+  - rocket-config.yaml
